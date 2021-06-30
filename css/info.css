@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: url("../bj.jpg") no-repeat;
+    background-size: 100%;
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(45deg,orange,yellow);
+    opacity: .8;
+    border-radius: 30px;
+}
+
+.snoBox,
+.snameBox,
+.sageBox,
+.saddressBox {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-47%, 160%);
+    width: 300px;
+    height: 40px;
+}
+
+span {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+input {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.buttonBox {
+    position: relative;
+    bottom: -95px;
+}
+
+input[type="submit"],
+button {
+    position: absolute;
+    left: 56%;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+button {
+    position: absolute;
+    left: 26%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
